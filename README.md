@@ -1,8 +1,6 @@
 # Discord Slashbot
 simple discord slash-command bot written in TypeScript, intended to be hosted on [Cloudflare Workers](https://workers.cloudflare.com/)
 
----
-
 ## Features
 | Command | Description |
 | ----------- | ----------- |
