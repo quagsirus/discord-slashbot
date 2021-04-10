@@ -30,7 +30,7 @@ const helloHandler: InteractionHandler = async (
 
 const ytCommand: ApplicationCommand = {
   name: "yt",
-  description: "starts a YouTube watch together session",
+  description: "sends a watch together link for a voice channel",
   options: [
     {
       name: "channel",
