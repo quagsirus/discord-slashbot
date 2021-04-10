@@ -29,7 +29,7 @@ const helloHandler: InteractionHandler = async (
 };
 
 const slashCommandHandler = createSlashCommandHandler({
-  // @ts-ignore (supresses error shown due to use of Cloudflare Workers Secrets)
+  // @ts-expect-error (supresses error shown due to use of Cloudflare Workers Secrets)
   applicationID: applicationID, applicationSecret: applicationSecret, publicKey: publicKey,
   commands: [[helloCommand, helloHandler]],
 });
